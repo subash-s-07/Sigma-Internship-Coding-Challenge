@@ -25,14 +25,10 @@ The model consists of the following components:
 ## Implementation Details
 
 The implementation is based on the provided data and includes modules for:
+Defines the `Model` class with methods for analyzing market trends, calculating portfolio values, determining transition probabilities, and making buy decisions.
+## Predictions
 
-- **model.py**: Defines the `Model` class with methods for analyzing market trends, calculating portfolio values, determining transition probabilities, and making buy decisions.
-
-## Usage Instructions
-
-1. Clone the repository to your local machine.
-2. Install the required dependencies listed in `requirements.txt`.
-3. Run the `model.py` script to execute the model and obtain outputs such as transition probabilities and recommended buy dates.
+The model also provides predictions for future stock prices based on the ARIMA model. By inputting a specific date, the model can predict the stock price for that date, allowing users to plan their trading strategies accordingly.
 
 ## Results
 
